@@ -1,7 +1,10 @@
+%define _enable_debug_packages %{nil}
+%define debug_package %{nil}
+
 Summary:        Chromium Flash player plugin
 Name:           chromium-browser-pepper-flash
 Version:        13.0.0.206
-Release:        1%{?dist}
+Release:        1
 
 License:        Proprietary
 Url:            http://www.google.com/chrome
@@ -18,7 +21,7 @@ Pepper API based Adobe Flash plugin for Google's Open Source browser Chromium.
 
 %package -n chromium-browser-pdf-plugin
 Summary:        Chromium PDF viewer plugin
-Group:          Applications/Internet
+Group:          Networking/WWW
 Requires:       chromium-browser
 
 %description -n chromium-browser-pdf-plugin
