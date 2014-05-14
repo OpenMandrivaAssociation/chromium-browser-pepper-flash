@@ -5,7 +5,7 @@ Release:        1%{?dist}
 
 License:        Proprietary
 Url:            http://www.google.com/chrome
-Group:          Applications/Internet
+Group:          Networking/WWW
 Source0:        https://dl.google.com/linux/direct/google-chrome-stable_current_i386.rpm
 Source1:        https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
