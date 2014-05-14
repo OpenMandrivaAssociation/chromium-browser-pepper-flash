@@ -43,7 +43,7 @@ install -m755 opt/google/chrome/libpdf.so %{buildroot}%{_libdir}/chromium-browse
 
 
 %files
-%dir %{_libdir}/chromium/
+%dir %{_libdir}/chromium-browser/
 %{_libdir}/chromium-browser/PepperFlash/
 
 
