@@ -3,7 +3,7 @@
 
 Summary:        Chromium Flash player plugin
 Name:           chromium-browser-pepper-flash
-Version:        14.0.0.125
+Version:        14.0.0.145
 Release:        1
 
 License:        Proprietary
